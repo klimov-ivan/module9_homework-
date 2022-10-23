@@ -56,7 +56,7 @@ function transformXml(strXml) {
     });
     console.log(result); 
 }
-transformXml(xmlString);
+transformXml(xmlString); 
 
 
 //Задание 2.
