@@ -98,7 +98,7 @@ function transformJson(strJson) {
 	});
 	console.log(result);
 }
-transformJson(jsonString);
+transformJson(jsonString); 
 
 
 
