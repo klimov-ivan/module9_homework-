@@ -35,7 +35,6 @@
   const btnNode = document.querySelector('.btn-request');
   const value = document.querySelector('input');
   
-
   
   
   
@@ -45,6 +44,7 @@
    function displayResult(apiData) {
 	let cards = '';
 	// console.log('start cards', cards);
+	
 
 	if( ! Number(value.value) || Number(value.value)  > 10 || Number(value.value) < 1 ) {
 		resultNode.innerHTML = 'Число вне диапазона от 1 до 10';
@@ -67,6 +67,6 @@
   
   // Вешаем обработчик на кнопку для запроса
   btnNode.addEventListener('click', () => {
-	useRequest(`https://picsum.photos/v2/list/?limit=${value.value}`, displayResult);
+	useRequest(`https://picsum.photos/v2/list/?limit=${parseInt(value.value)}`, displayResult);
   });
  
