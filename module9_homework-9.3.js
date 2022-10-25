@@ -68,5 +68,5 @@
   // Вешаем обработчик на кнопку для запроса
   btnNode.addEventListener('click', () => {
 	useRequest(`https://picsum.photos/v2/list/?limit=${parseInt(value.value)}`, displayResult);
-  });
+  }); 
  
