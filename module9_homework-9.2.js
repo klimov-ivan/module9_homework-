@@ -56,7 +56,7 @@ function transformXml(strXml) {
     });
     console.log(result); 
 }
-transformXml(xmlString);
+transformXml(xmlString); 
 
 
 //Задание 2.
@@ -98,7 +98,7 @@ function transformJson(strJson) {
 	});
 	console.log(result);
 }
-transformJson(jsonString);
+transformJson(jsonString); 
 
 
 
